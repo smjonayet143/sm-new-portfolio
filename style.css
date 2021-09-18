@@ -7,6 +7,7 @@ body{
 }
 section{
     display: flex;
+    margin-bottom: 100px;
 }
 .half-width{
     width: 50%;
@@ -16,4 +17,19 @@ section{
 .link-button{
 text-decoration: none;
 background-color: orange;
+padding: 10px 30px;
+border-radius: 10px;
+padding-top: 5px;
+}
+.Top-banner{
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+}
+.green-color{
+    color:salmon;
+}
+.dream-big{
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
 }
